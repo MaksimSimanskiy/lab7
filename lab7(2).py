@@ -13,7 +13,7 @@ if len(a) != 5:
 
 print('Максимальный элемент ' , max(a, key=abs))
 print('Индекс максимального элемента ' , a.index(max(a, key=abs)))
-for i in range(len(a)):
+for i in a:
     if (a[i] > 0.):
         k = i
         break
